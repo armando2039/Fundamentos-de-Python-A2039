@@ -38,8 +38,8 @@ print(my_dict)
 del my_dict["Calle"]
 print(my_dict)
 
-print("Armando2039" in my_dict)
-print("Apellido" in my_dict)
+print("Armando2039" in my_dict)  # False, porque no es una llave
+print("Apellido" in my_dict)  # True, porque es una llave, solo se puede buscar "claves"
 print(my_dict["Nombre"])
 
 print(my_dict.items()) # un listado de cada uno de los items

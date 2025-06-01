@@ -21,8 +21,8 @@ print(my_scape_string) # \\ es un caracter de escape
 
 name, surname, age = "Armando", "Rodriguez", 25
 
-print("Mi nombre es {} {} y mi edad {}".format(name, surname, age)) # Formateo de cadenas
-print("Mi nombre es %s %s y mi edad %d" %(name, surname, age)) # Formateo de cadenas, deinimos el tipo de formato
+print("Mi nombre es {} {} y mi edad {}".format(name, surname, age)) # Formateo de cadenas - si formateamos los datos tal cual.
+print("Mi nombre es %s %s y mi edad %d" %(name, surname, age)) # Formateo de cadenas, definimos el tipo de formato, si de verdad queremos formatear los datos
 
 print(f"Mi nombre es {name} {surname} y mi edad {age}") # Formateo de cadenas, inferencia de datos, si queremos imprimir datos tal cual
 print(f"Mi nombre es {name.upper()} {surname.lower()} y mi edad {age}") # Formateo de cadenas, inferencia de datos, si queremos imprimir datos tal
@@ -37,7 +37,7 @@ print(d)
 
 # Division de cadenas
 
-language_slicce = language[0:3]
+language_slicce = language[0:3]  # [0:3] significa que queremos los caracteres desde la posicion 0 hasta la posicion 3 (sin incluir la posicion 3)
 print(language_slicce)
 
 language_slicce = language[1:]

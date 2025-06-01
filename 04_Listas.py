@@ -39,7 +39,7 @@ my_list2 = "Hola python"
 print(my_list)
 print(type(my_list))
 
-my_other_list.append("Hola") # Agregar un elemento a la lista
+my_other_list.append("Hola") # Agregar un elemento a la lista, por default al final de la lista
 print(my_other_list)
 
 my_other_list.insert(1, "Python") # Agregar un elemento en una posición especifica
@@ -50,10 +50,10 @@ print(my_other_list)
 
 my_other_list.pop(1) # Eliminar un elemento de la lista por posición
 
-print(my_list.pop())
+print(my_list.pop())  # Eliminar el último elemento de la lista y devolverlo
 print(my_list)
 
-print(my_list.pop(1))
+print(my_list.pop(1))  # Eliminar un elmento de la lista por posición y devolverlo
 
 print(my_list)
 
@@ -73,12 +73,17 @@ print(my_new_list)
 my_new_list.sort() # Ordenar una lista
 print(my_new_list)
 
+my_new_list.find()  # No existe el método find() para listas, se usa index() para encontrar la posición de un elemento
+print(my_new_list)
 
 
+my_new_list.count()  # contar cuantas veces se repite un valor en la lista 
+print(my_new_list)
 
 
-
-
+my_new_list.insert()  # insertar un elemento en una posición especifica
+my_new_list.append()  # agregar un elemento al final de la lista 
+print(my_new_list)
 
 
 

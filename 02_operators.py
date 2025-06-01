@@ -6,7 +6,7 @@ print(3 * 4)
 print(3 / 4)
 
 # floor division calcula la parte entera de la división
-print(10 // 3)
+print(10 // 3) # // es floor división que devuelve la parte entera de la división
 print(3 % 4)
 
 # potencia
@@ -27,7 +27,7 @@ print(3 < 4)
 print(3 >= 4)
 print(3 <= 4)
 print(3 == 4)
-print(3 != 4)   
+print(3 != 4)   # es distinto a 
 print(3 == 3.0)
 print(3 == "3")
 print(3 == int("3"))
@@ -126,6 +126,16 @@ print(not(3 != 4)) # False
 print(not(3 >= 4)) # True
 print(not(3 <= 4)) # False
 print(not(3 > 4 and 3 < 4)) # True
+
+
+print(3 > 4 and "Hola" > "Python") # False
+print(3 > 4 or "Hola" > "python") # False
+print(3 < 4 and "Hola" < "Python") # True
+print(3 < 4 or "Hola" > "Python") # True
+print(3 < 4 or ("Hola" > "Python" and 4 == 4)) # True 
+print(not(3 > 4)) # True
+print(not(3 < 4)) # False
+
 
 
 
